@@ -13,4 +13,4 @@ $(TARGET): $(SRC)
 clean:
 	rm -f $(TARGET)
 
-.PHONY: all cleanw
+.PHONY: all clean
