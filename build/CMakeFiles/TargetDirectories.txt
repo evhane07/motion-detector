@@ -1,0 +1,3 @@
+/home/evhane/PROJETS/motion-detector/build/CMakeFiles/motion_detector.dir
+/home/evhane/PROJETS/motion-detector/build/CMakeFiles/edit_cache.dir
+/home/evhane/PROJETS/motion-detector/build/CMakeFiles/rebuild_cache.dir

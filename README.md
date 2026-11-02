@@ -65,3 +65,19 @@ Un projet C++ complet de détection de mouvement en temps réel exploitant la bi
 
 ```bash
 sudo apt update ; sudo apt install -y g++ git cmake make pkg-config libopencv-dev ; git clone [https://github.com/evhane07/motion-detector.git](https://github.com/evhane07/motion-detector.git) ; cd motion-detector ; make ; ./motion_detector
+
+## In case it doesn't work, try this command :
+
+```bash
+sudo apt update
+sudo apt install -y build-essential cmake pkg-config libopencv-dev
+
+cmake -S . -B build
+cmake --build build
+./build/motion_detector
+
+    ## Or this one :
+    
+    ```bash
+    g++ -std=c++17 motion_detector.cpp -o motion_detector $(pkg-config --cflags --libs opencv4)
+./motion_detector
